@@ -1,7 +1,7 @@
     *{
         margin: 0;
         padding: 0;
-        font-family: "Noto Serif", serif;
+        font-family: "Inter", sans-serif;
     }
 
     .header-wrapper{
@@ -77,9 +77,14 @@
         font-weight: bold;
     }
 
+    .menu-list li:hover .tooltip-wrapper {
+        display: block;
+    }
+    
+
     .tooltip-wrapper{
         max-width: 100%;
-        background-color: lightblue;
+        background-color: #ade8f4;
         padding-left: 16px;
         padding-top: 12px;
         padding-bottom: 12px;
@@ -89,10 +94,12 @@
         margin-left: 12px; */
     }
 
+
     .tooltip-wrapper p{
         font-size: 22px;
         font-weight: bold;
     }
+
 
     .blog-wrapper{
         padding-top: 20px;
@@ -107,14 +114,17 @@
     
     .left-blog-wrapper {
         max-width: 100%; /* Ensure it takes full width of its grid cell */
+        padding-bottom: 20px;
     }
     
     .right-blog-wrapper {
         max-width: 100%; /* Ensure it takes full width of its grid cell */
+        padding-left: 36px;
+        margin-right: 20px;
     }
     
     .blog-title{
-        color:royalblue;
+        color:#0096c7;
         font-weight: 500;
     }
 
@@ -154,4 +164,58 @@
 
     .socmed-wrapper-text{
         font-size: 22px;
+        padding-bottom: 10px;
+    }
+
+    .more-text:hover{
+        text-decoration: underline;
+    }
+
+    .table-header{
+        max-width: 100%;
+        min-height: 20%;
+        background-color: #ade8f4;
+        padding: 6px;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-weight: bold;
+    }
+
+    .table-header p{
+        font-size: 22px;
+    }
+
+
+    .table-list{
+        list-style-type: none;
+    }
+
+    /* .table-list ol li{
+        list-style-type: decimal;
+        margin-left: 100px;
+    } */
+
+    .table-list hr {
+        max-width: 100%;
+    }
+
+    .table-list li{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: #0096c7;
+    }
+
+    .table-list-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .table-list-wrapper p{
+        color: gray;
+    }
+
+    .socmed-wrapper svg{
+        width: 28px;
+        height: 28px;
     }
