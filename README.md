@@ -1,8 +1,8 @@
-Guys ini kurang di : 
-1. Tabel sebelah kanan
-2. Tooltip "Tampil Rinci" belum ada kyk ujung yang pointy gitu
-3. Social Media di kiri bawah
-4. Details dari fontsize, warna, dll
-5. DANNN RESPONSIVENESS :)
+#Tugas Pertemuan 3 Praktikum Web Programming
 
-Image gw tambahin di repo ini juga udah ada
+Anggota:
+1. ARDIAN NUGROHO (2210512084)
+2. MUHAMMAD RIFQI FAUZAN (2210512095)
+3. NUGRAHA ADHITAMA HARYONO (2210512109)
+4. HAIKAL RAFIF AULIA SAKTI (2210512113)
+5. FATHIR DENY SYAHPUTRA (2210512122)
